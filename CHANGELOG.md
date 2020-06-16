@@ -1,5 +1,27 @@
 # CHANGELOG
 
+version 0.11.9 2020-05-26
+-------------------------
+* Updated dependencies: dayjs - 1.8.27, debug: 4.1.1, tough-cookie - 4.0.0, uuid - 8.0.0
+
+version 0.11.8 (never released)
+-------------------------
+* Include iframe request when frame is not attached [#68](https://github.com/sitespeedio/chrome-har/pull/68) - thank you [Michael Dijkstra](https://github.com/mikedijkstra) for the PR!
+
+* Include response canceled by Chrome or user action [#67](https://github.com/sitespeedio/chrome-har/pull/67) - thank you [Michael Dijkstra](https://github.com/mikedijkstra) for the PR!
+
+version 0.11.7 2020-03-09
+-------------------------
+* And excluded the shrinkwrap file again.
+
+version 0.11.6 2020-03-09
+-------------------------
+* Exclude the test folder from the release.
+
+version 0.11.5 2020-03-09
+-------------------------
+* Added a shrinkwrap file.
+
 version 0.11.4 2019-10-16
 -------------------------
 * Reverted the _initiator field fix since that was an old upstream issue in Chrome [#44](https://github.com/sitespeedio/chrome-har/pull/44).
